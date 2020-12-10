@@ -50,7 +50,7 @@ def solve_part_two(data):
 
 
 def main():
-    data = open('day8.txt', 'r').read().splitlines()
+    data = open('day08.txt', 'r').read().splitlines()
 
     print(f'Part One: {get_loop_acc(data)[1]}')
     print(f'Part Two: {solve_part_two(data)}')

@@ -103,7 +103,7 @@ def solve(passport_set):
     return counter
 
 
-data = open('day4.txt', 'r').read().splitlines()
+data = open('day04.txt', 'r').read().splitlines()
 
 passports = []
 temp_set = {}

@@ -14,7 +14,7 @@ def solve(data, delta_x, delta_y):
     return tree_count
 
 
-data = open('day3.txt', 'r').read().splitlines()
+data = open('day03.txt', 'r').read().splitlines()
 
 print(f'Part One: {solve(data, 3, 1)}')
 

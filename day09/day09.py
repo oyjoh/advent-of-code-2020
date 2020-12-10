@@ -30,7 +30,7 @@ def find_seq(data, num):
 
 
 def main():
-    data = open('day9.txt', 'r').read().splitlines()
+    data = open('day09.txt', 'r').read().splitlines()
     data = list(map(int, data))
     print(f'Part One: {get_first_error(data, 25)}')
     print(f'Part Two: {find_seq(data, get_first_error(data, 25))}')

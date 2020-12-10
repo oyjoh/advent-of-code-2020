@@ -1,6 +1,6 @@
 entries = []
 
-with open('day1.txt', 'r') as inp:
+with open('day01.txt', 'r') as inp:
     data = inp.read().splitlines()
 
 for line in data:

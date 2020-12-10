@@ -37,7 +37,7 @@ def solve_part_two(bag_dict):
 
 bag_dict = {}
 
-data = open('day7.txt', 'r').read().splitlines()
+data = open('day07.txt', 'r').read().splitlines()
 
 for line in data:
     string_arr = line.split()

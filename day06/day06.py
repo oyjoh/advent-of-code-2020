@@ -33,7 +33,7 @@ def solve_part_one(data):
 
 
 def main():
-    data = open('day6.txt', 'r').read().splitlines()
+    data = open('day06.txt', 'r').read().splitlines()
     print(f'Part One: {solve_part_one(data)}')
     print(f'Part Two: {solve_part_two(data)}')
 

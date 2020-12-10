@@ -26,7 +26,7 @@ def solve(num_rows, row_len, boardingpass):
     return (rows[0] * 8) + seats[0]
 
 
-data = open('day5.txt', 'r').read().splitlines()
+data = open('day05.txt', 'r').read().splitlines()
 
 seat_ids = []
 for boardingpass in data:

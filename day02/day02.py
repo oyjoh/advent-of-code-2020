@@ -37,7 +37,7 @@ def part_one(data):
     return count
 
 
-data = open('day2.txt', 'r').read().splitlines()
+data = open('day02.txt', 'r').read().splitlines()
 
 print(f'Part One: {part_one(data)}')
 print(f'Part Two: {part_two(data)}')
