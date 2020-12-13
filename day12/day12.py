@@ -73,7 +73,7 @@ def main():
     data = open('day12.txt', 'r').read().splitlines()
 
     print(f'Part One: {solve_part_one(data)}')
-    print(f'Part Two {solve_part_two(data)}')
+    print(f'Part Two: {solve_part_two(data)}')
 
 
 main()
